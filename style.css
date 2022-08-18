@@ -1,0 +1,112 @@
+body
+{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+label
+{
+    color: rgba(211, 211, 211, 0.315);
+}
+.h4
+{
+    color: white;
+}    
+.left, .right
+{
+    width: 50%;
+    float: left;
+    height: 600px;
+    text-align: center;
+    font-size: medium;
+}
+.left
+{
+    background-color: whitesmoke;
+    color: black;
+}
+.hello
+{
+    color: white;
+}
+.right
+{
+    background-color: rgba(0, 191, 255, 0.527);
+    color: whitesmoke;
+}
+.right button
+{
+    height: 40px;
+    width: 30%;
+    background-color: transparent;
+    color: white;
+    display: inline-block;
+    box-shadow: 0px 0px 0px 1.5px white;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    
+}
+.right button:hover
+{
+    background-color: rgb(224, 69, 64);
+    animation: 5s;
+    cursor: pointer;
+}
+.fa
+{
+  padding: 12px;
+  margin: 5px;
+  font-size: 25px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+  display: inline-block;
+  box-shadow: 0px 0px 0px 1.5px lightgray;
+  color: black;
+}
+.fa:hover {
+    opacity: 0.7;
+  }
+  .left input[type="text"]
+{
+    width: 50%;
+    height: 40px;
+    margin-top: 38px;
+    margin-left: 10%;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.315);
+}
+.left input[type="password"]
+{
+    width: 50%;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 10%;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.315);
+}
+.left button
+{
+    width: 30%;
+    height: 40px;
+    margin-top: 24px;
+    margin-left: 10%;
+    background-color: rgba(0, 191, 255, 0.527);;
+    color: antiquewhite;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+label {
+    cursor: pointer;
+    color: #555;
+    display: block;
+    text-align: center;
+}
+.left button:hover
+{
+    background-color: rgb(224, 69, 64);
+    animation: 5s;
+    cursor: pointer;
+}
